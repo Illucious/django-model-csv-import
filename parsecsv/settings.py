@@ -37,13 +37,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
     "parsingapp",
     # for parsing csv files
     "import_export",
 ]
 
-#parsing settings
+# parsing settings
 IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 MIDDLEWARE = [
